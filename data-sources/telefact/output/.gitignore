@@ -1,0 +1,9 @@
+# Fetched images
+/imgs/
+
+# Fetched HTMLs
+/htmls
+
+# Processed metadata of unlabeled entries
+/metadata-processed/unlabeled.zip
+/metadata-processed/unlabeled.json
