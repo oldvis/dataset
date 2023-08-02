@@ -41,9 +41,11 @@ def deterministic_zip(root: str, filename: str) -> None:
     zip_info.create_system = 0
     permission = 0o555 if os.access(path_file, os.X_OK) else 0o444
     zip_info.external_attr = (stat.S_IFREG | permission) << 16
-    
-    with (ZipFile(path_zip, "w", ZIP_DEFLATED) as zip_ref,
-          open(path_file, "r", encoding="utf-8", newline="") as f):
+
+    with (
+        ZipFile(path_zip, "w", ZIP_DEFLATED) as zip_ref,
+        open(path_file, "r", encoding="utf-8", newline="") as f,
+    ):
         zip_ref.writestr(
             zip_info,
             f.read(),
