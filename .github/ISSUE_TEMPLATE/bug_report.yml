@@ -1,5 +1,5 @@
 name: 🐞 Bug report
-description: Report an issue with libprocess
+description: Report an issue
 labels: [pending triage]
 body:
   - type: markdown
@@ -28,5 +28,5 @@ body:
           required: true
         - label: Check that there isn't [already an issue](https://github.com/oldvis/dataset/issues) that reports the same bug to avoid creating a duplicate.
           required: true
-        - label: Check that this is a concrete bug. For Q&A open a [GitHub Discussion](https://github.com/dataset/libprocess/discussions).
+        - label: Check that this is a concrete bug. For Q&A open a [GitHub Discussion](https://github.com/oldvis/dataset/discussions).
           required: true

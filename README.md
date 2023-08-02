@@ -7,15 +7,16 @@
 
 # Old Visualization Dataset
 
-A repository of historical visualization metadata and scripts for gathering metadata.
+A repository of old visualization metadata and scripts for gathering metadata.
+The dataset can be found in [this directory](./dataset/output/).
 
 The dataset in this repository can be downloaded with [oldvis_dataset](https://github.com/oldvis/oldvis_dataset).
 
 ## Project Structure
 
-- `./data-sources`: each subdirectory of it stores
+- `./data-sources/`: each subdirectory of it stores
     - the scripts for obtaining metadata and images from a data source
     - the obtained metadata and related cache
-- `./dataset`: the main directory that stores
-    - the scripts for processing the metadata in `./data-sources`
+- `./dataset/`: the main directory that stores
+    - the scripts for processing the metadata in `./data-sources/`
     - the processed metadata
