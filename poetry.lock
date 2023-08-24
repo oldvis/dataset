@@ -633,13 +633,13 @@ marisa-trie = ">=0.7.7,<0.8.0"
 
 [[package]]
 name = "libprocess"
-version = "0.1.3"
+version = "0.1.4"
 description = ""
 optional = false
 python-versions = ">=3.10,<3.13"
 files = [
-    {file = "libprocess-0.1.3-py3-none-any.whl", hash = "sha256:2fe77ba33ab8fa58ebae64a4b8be5058401bdb86dc9e3c0cab0c7e1a80885541"},
-    {file = "libprocess-0.1.3.tar.gz", hash = "sha256:7f47e8a56bc2fbaf323180f797cb414e2ec08c416ea95cb0fc482d9286152a67"},
+    {file = "libprocess-0.1.4-py3-none-any.whl", hash = "sha256:53b5db46a8b7d15dc821c6ebd479062c635b72274b406ff043332f40f04cbf59"},
+    {file = "libprocess-0.1.4.tar.gz", hash = "sha256:314f3d34ba06f0aaa60ed1d2aa8c0a8f8bf4e201a72aa2ccb13b406875196e1a"},
 ]
 
 [package.dependencies]
@@ -1859,4 +1859,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10,<3.13"
-content-hash = "ae8b5bfa935757905cdf43814d9d11bc509e36496ad0e780702bf1ee51070693"
+content-hash = "4f5e21ff3ccc3484c76f9ca50e698c8d18a6835dd1ad00aea59143ce7ab8b97e"
