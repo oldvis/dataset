@@ -8,13 +8,12 @@ This directory is structured as:
 
 ```
 📂dataset
- ┣ 📂output                     - a directory storing data files
- ┃ ┣ 📜authors.json             - the built dataset of "author" entities
- ┃ ┗ 📜visualizations.json      - the built dataset of "visualization" entities
- ┣ 📜_authors.py                - utility functions to build "author" entities
- ┣ 📜_loader.py                 - utility functions to load metadata
- ┣ 📜_visualizations.py         - utility functions to build "visualization" entities
- ┣ 📜build_dataset.py           - a script to build the dataset
- ┣ 📜README.md
- ┗ 📜summary-statistics.ipynb   - a notebook showing summary statistics
+ ┣ 📂builders               - the Python package to build "author" and "visualization" entities
+ ┣ 📂output                 - a directory storing data files
+ ┃ ┣ 📜authors.json         - the built dataset of "author" entities
+ ┃ ┗ 📜visualizations.json  - the built dataset of "visualization" entities
+ ┣ 📂playground             - a directory storing preliminary data analysis results
+ ┣ 📜_loader.py             - utility functions to load metadata
+ ┣ 📜build_dataset.py       - a script to build the dataset
+ ┗ 📜README.md
 ```
