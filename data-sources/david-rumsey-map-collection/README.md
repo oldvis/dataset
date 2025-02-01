@@ -20,6 +20,7 @@ For more information about this data source, see the [data source documentation]
 
 ### Notes
 
+- The data source is actively maintained and its collection is growing over time.
 - Not all the returned entries are images.
     - Some entries are websites.
     - The data type of an entry can be checked with `mediaType == "Image"`.
